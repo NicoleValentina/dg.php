@@ -10,9 +10,11 @@ Como PHP se ejecuta [del lado del servidor](https://es.wikipedia.org/wiki/Script
 
 Para que se ejecute PHP, en esta clase **deben tener instalado [MAMP](https://www.mamp.info/en/) en sus computadores**. Ese programa nos permite montar un servidor local, para trabajar con **Apache** (servidor HTTP), **MySQL** (sistema de gestión de bases de datos) y **PHP** (lenguaje de programación).
 
-Para trabajar con PHP debemos usar documentos con extensión `*.php`, los que se pueden crear de la misma manera que normalmente se crean los documentos `*.html`: trabajando con cualquier editor de código. Pero en este trabajo tenemos que usar etiquetas de apertura y cierre particulares, que son `<?php` y `?>` (las instrucciones que estén entre estas etiquetas serán filtradas e interpretadas en el [servidor](https://es.wikipedia.org/wiki/Servidor)).
+Para trabajar con PHP debemos usar documentos con extensión `*.php`, los que se pueden crear de la misma manera que normalmente se crean los documentos `*.html`: trabajando con cualquier editor de código.
 
-Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma `;`. Por ejemplo: 
+Dentro de los documentos con extensión `*.php` tenemos que usar etiquetas de apertura y cierre particulares, que son `<?php` y `?>` (las instrucciones que estén entre estas etiquetas serán filtradas e interpretadas en el [servidor](https://es.wikipedia.org/wiki/Servidor)).
+
+Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma `;`. Y si necesitan escribir comentarios de una línea, deben anteponer un doble slash `//`. Por ejemplo: 
 
 ```
 <?php 
@@ -23,4 +25,4 @@ print $inception;
 ?>
 ```
 
-Como notaron en el ejemplo, las variables en PHP se declaran con un signo peso pegado al nombre de la variable. Será muy necesario poner atención a esta y otras [diferencias del PHP con JavaScript](http://profesor.faco.cl/diferencias.php).
+Como notaron en el ejemplo, las variables en PHP se declaran con un signo peso pegado al nombre de la variable. Será muy necesario poner atención a esta y otras [diferencias de PHP con JavaScript](http://profesor.faco.cl/diferencias.php).
