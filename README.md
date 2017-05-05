@@ -19,7 +19,7 @@ Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escrib
 ```
 <?php 
 //primero defino una variable
-$inception = "película escrita, producida y dirigida por Christopher Nolan ";
+$inception = "película escrita, producida y dirigida por Christopher Nolan";
 //luego imprimo el contenido de la variable
 print $inception;
 ?>
