@@ -12,11 +12,15 @@ Para que se ejecute PHP, en esta clase **deben tener instalado [MAMP](https://ww
 
 Para trabajar con PHP debemos usar documentos con extensión `*.php`, los que se pueden crear de la misma manera que normalmente se crean los documentos `*.html`: trabajando con cualquier editor de código. Pero en este trabajo tenemos que usar etiquetas de apertura y cierre particulares, que son `<?php` y `?>` (las instrucciones que estén entre estas etiquetas serán filtradas e interpretadas en el [servidor](https://es.wikipedia.org/wiki/Servidor)).
 
-Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma `;`.
+Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma `;`. Por ejemplo: 
 
 ```
 <?php 
-$inception = "película";
-echo $inception;
+//primero defino una variable
+$inception = "película escrita, producida y dirigida por Christopher Nolan ";
+//luego imprimo el contenido de la variable
+print $inception;
 ?>
 ```
+
+Como notaron en el ejemplo, las variables en PHP se declaran con un signo peso pegado al nombre de la variable. Será muy necesario poner atención a esta y otras [diferencias del PHP con JavaScript](http://profesor.faco.cl/diferencias.php).
