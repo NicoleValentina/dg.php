@@ -1,6 +1,6 @@
 # PHP
 
-## Introducción
+### Introducción
 
 PHP es un lenguaje de programación de código abierto, [nacido para-](http://php.net/manual/es/history.php.php) y [usado en](http://spectrum.ieee.org/computing/software/the-2016-top-programming-languages) el desarrollo de sitios web de contenido dinámico. 
 
