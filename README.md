@@ -13,3 +13,10 @@ Para que se ejecute PHP, en esta clase **deben tener instalado [MAMP](https://ww
 Para trabajar con PHP, usen páginas con extensión `*.php`. Estas se pueden crear de la misma manera que normalmente se crean páginas `*.html`: trabajando con cualquier editor de código. Pero en este trabajo tenemos que usar etiquetas de apertura y cierre particulares, que son `<?php` y `?>`. Las instrucciones que estén entre estas etiquetas serán filtradas e interpretadas en el [servidor](https://es.wikipedia.org/wiki/Servidor).
 
 Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma `;`.
+
+```
+<?php 
+$inception = array("el sueño en la van",array("el sueño en el hotel",array("el sueño en la nieve",array("el sueño en la ciudad abandonada"))));
+echo $inception[1][1][1][0];
+?>
+```
