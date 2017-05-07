@@ -17,6 +17,9 @@ $partes = array("PHP","PHP+CSV","PHP+JSON","PHP+GeoJSON");
 <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="bootstrap/style.css" rel="stylesheet">
+<?php if((basename($_SERVER['PHP_SELF']))=='php_csv.php'){?>
+<style>.col-sm-6:nth-child(2n+1) {clear: both;}</style>
+<?php };?>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

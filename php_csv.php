@@ -18,8 +18,9 @@ que en este caso se llama <code>data/comma-separated-values.csv</code>.</p>
 <blockquote>En su opinión, ninguna presentación fue completa, clara ni entretenida. Tampoco hubo presentaciones útiles.</blockquote>
 <p>A continuación pueden ver las "tarjetas" de respuesta, cuyo orden es el mismo en que fueron ingresadas a la encuesta.</p>
 
+<div class="row">
 <?php for ($n = 0; $n < $nll = count($datos); $n++) {?>
-
+<div class="col-sm-6">
 <article class="alert alert-info">
 <div class="nro"><?php echo($n+1);?></div>
 <img src="data/images/<?php echo($datos[$n][1]);?>.jpg">
@@ -37,9 +38,11 @@ Tampoco hubo presentaciones útiles.
 Y la presentación más útil fue <strong>"<?php echo($datos[$n][5]);?>"</strong>.
 <?php };?>
 </p>
+</div>
 </article>
-
 <?php };?>
+</div>
+
 
 <div class="alert alert-danger">
 <p>Con un vistazo al código, respondan:</p>
