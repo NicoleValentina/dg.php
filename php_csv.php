@@ -45,12 +45,11 @@ Y la presentación más útil fue <strong>"<?php echo($datos[$n][5]);?>"</strong
 
 
 <div class="alert alert-danger">
-<p>Con un vistazo al código, respondan:</p>
-<ul>
-<li>¿De qué manera se hace el "truco" de mostrar la imagen correspondiente a cada uno?</li>
-<li>¿Dónde podrían agregar sus nombres?</li>
-<li>¿De qué manera podrían modificar la frase de opinión sobre las presentaciones a algo como "[Nombre] cree que…"?</li>
-</ul>
+<p>Con un vistazo al código, deberían poder responder:</p>
+<p>¿De qué manera se hace el "truco" de mostrar la imagen correspondiente a cada uno?</p>
+<p>¿Dónde podrían agregar sus nombres?</p>
+<p>¿De qué manera podrían modificar la frase de opinión sobre las presentaciones a algo como "[Nombre] cree que…"?</p>
+<p>Después de revisar todas las páginas de esta clase, los estudiantes del segundo nivel deben realizar el ejercicio que está en <a href="../dgphp/ejercicio/">la carpeta homónima</a>.</p>
 </div>
 
 </section>
